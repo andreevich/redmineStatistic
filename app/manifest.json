@@ -1,0 +1,16 @@
+﻿{
+  "name": "Redmine Statistic",
+  "description": "Redmine statistic",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["scripts/background.js"]
+    }
+  },
+  "permissions": [
+    "https://*/",
+    "storage"
+  ],
+   "icons": { "16": "icons/icon.png", "128": "icons/icon.png" }
+}

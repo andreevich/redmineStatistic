@@ -1,0 +1,130 @@
+table {
+    margin-top: 20px;
+    position: absolute;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.chart {
+    width: 200px;
+    padding: 3px 10px;
+}
+
+.bar-wrapper {
+    border: 1px grey solid;
+    width: 100%;
+    height: 10px;
+    position: relative;
+}
+
+.bar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.full {
+    background: green;
+}
+
+.over {
+    background: orangered;
+}
+
+.partial {
+    background: yellow;
+}
+
+.reference-hour {
+    border-right: 2px solid #3577e0;
+    height: 16px;
+    position: absolute;
+    top: -3px;
+    z-index: 2;
+}
+
+.header {
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    background: #eaeaea;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    box-shadow: 0 0 2px 1px black;
+    transform: translateX(-85%);
+    transition: 0.5s all;
+}
+
+.header:hover {
+    transform: translateX(0);
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    padding: 7px;
+    margin-left: -37px;
+}
+
+li:nth-of-type(2) {
+    top: 50px;
+}
+
+.menu li:hover {
+    fill: grey;
+}
+
+li.active {
+    fill: #0060ad;
+}
+
+.svg-icon {
+    width: 40px;
+    position: relative;
+}
+
+.month-item, .redmine-item {
+    padding-bottom: 2px;
+}
+
+.redmine-item input {
+    width: 300px;
+}
+
+.month-item label {
+    min-width: 80px;
+    display: inline-block;
+}
+
+.month-item input {
+    display: inline-block;
+    width: 40px;
+}
+
+pie {
+    position: absolute;
+    top: 150px;
+    z-index: 0;
+    left: 390px;
+}
+
+.percent {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 40px;
+}
+
+.content {
+    margin-left: 20px;
+}

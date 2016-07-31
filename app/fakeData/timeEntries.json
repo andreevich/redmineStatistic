@@ -1,0 +1,112 @@
+{
+  "time_entries": [
+    {
+      "hours": 8.3,
+      "comments": "fix defect",
+      "spent_on": "2016-07-01"
+    },
+    {
+      "hours": 8,
+      "comments": "fix defect",
+      "spent_on": "2016-07-02"
+    },
+    {
+      "hours": 9,
+      "comments": "fix defect",
+      "spent_on": "2016-07-03"
+    },
+    {
+      "hours": 7.6,
+      "comments": "fix defect",
+      "spent_on": "2016-07-04"
+    },
+    {
+      "hours": 8.5,
+      "comments": "fix defect",
+      "spent_on": "2016-07-05"
+    },
+    {
+      "hours": 9.1,
+      "comments": "fix defect",
+      "spent_on": "2016-07-06"
+    },
+    {
+      "hours": 7,
+      "comments": "fix defect",
+      "spent_on": "2016-07-07"
+    },
+    {
+      "hours": 7.5,
+      "comments": "fix defect",
+      "spent_on": "2016-07-08"
+    },
+    {
+      "hours": 8.4,
+      "comments": "fix defect",
+      "spent_on": "2016-07-09"
+    },
+    {
+      "hours": 8.5,
+      "comments": "fix defect",
+      "spent_on": "2016-07-10"
+    },
+    {
+      "hours": 7.8,
+      "comments": "fix defect",
+      "spent_on": "2016-07-11"
+    },
+    {
+      "hours": 8.2,
+      "comments": "fix defect",
+      "spent_on": "2016-07-12"
+    },
+    {
+      "hours": 7,
+      "comments": "fix defect",
+      "spent_on": "2016-07-13"
+    },
+    {
+      "hours": 8,
+      "comments": "fix defect",
+      "spent_on": "2016-07-14"
+    },
+    {
+      "hours": 8.2,
+      "comments": "fix defect",
+      "spent_on": "2016-07-15"
+    },
+    {
+      "hours": 7.9,
+      "comments": "fix defect",
+      "spent_on": "2016-07-16"
+    },
+    {
+      "hours": 8.1,
+      "comments": "fix defect",
+      "spent_on": "2016-07-17"
+    },
+    {
+      "hours": 7.8,
+      "comments": "fix defect",
+      "spent_on": "2016-07-18"
+    },
+    {
+      "hours": 7.7,
+      "comments": "fix defect",
+      "spent_on": "2016-07-19"
+    },
+    {
+      "hours": 8.2,
+      "comments": "fix defect",
+      "spent_on": "2016-07-20"
+    },
+    {
+      "hours": 8,
+      "comments": "fix defect",
+      "spent_on": "2016-07-21"
+    }
+  ],
+  "total_count": 21,
+  "offset": 0,
+  "limit": 100
+}

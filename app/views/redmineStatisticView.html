@@ -1,0 +1,23 @@
+<div>
+ <!-- <input ng-model='urlParam.dateFrom'/>
+  <input ng-model='urlParam.dateTo'/>-->
+  <input ng-click='update()' type='button' value='Текущий месяц. Обновить'/>
+  <table>
+    <tr>
+      <th>Дата</th>
+      <th>Время</th>
+      <th>Прогресс</th>
+    </tr>
+    <tr ng-repeat="item in data">
+      <td>{{item.date}}</td>
+      <td>{{item.time}}</td>
+      <td class="chart"><bar item="{{item}}"></bar></td>
+    </tr>
+    <tr>
+      <td>За {{data.length}} дн.</td>
+      <td>{{allTime}}</td>
+      <td>{{normTime}}</td>
+    </tr>
+  </table>
+    <pie done="{{allTime}}"></pie>
+</div>
